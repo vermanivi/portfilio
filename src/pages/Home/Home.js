@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
+import Banner from 'components/Banner/Banner'
+import Footer from 'components/Footer/Footer'
+import Header from 'components/Header/Header'
 
-class Home extends Component {
-    state = {}
-    render() {
-        return (
-            <p> Hello</p>
-        );
-    }
+
+function App() {
+  return (
+    <>
+      <Header />
+      <Banner />
+      <Footer />
+    </>
+  );
 }
-export default Home;
+
+export default App;
