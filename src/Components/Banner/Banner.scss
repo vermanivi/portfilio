@@ -1,0 +1,30 @@
+.banner {
+    padding: 24px 0;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        .start {
+            width: 48%;
+        }
+        .end {
+            width: 48%;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .banner {
+        .content {
+            flex-direction: column;
+            .start {
+                width: 100%;
+            }
+            .end {
+                width: 100%;
+            }
+        }
+    }
+}
+
+© 2021 GitHub,
+Inc.
